@@ -6,11 +6,7 @@ public class Soldier {
 		this.lives=lives;
 		this.hitpoints=hitpoints;
 	}
-
-	
-   
  
-   
     public  int takeDamage (int damage){
     	int remainingHitpoints=hitpoints-damage;
     	return remainingHitpoints;
